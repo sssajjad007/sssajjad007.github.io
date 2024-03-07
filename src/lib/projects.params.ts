@@ -8,7 +8,7 @@ const MY_PROJECTS: Array<Project> = [
     color: "blue",
     description: `<h3>Development Details:</h3>
 			<ul>
-			<li>Updated React Native version from 0.66 to 0.72, implementing necessary modifications.</li>
+			<li>Updated React Native version from 0.66 to 0.72, support sdk 34, implementing necessary modifications.</li>
 			<li>Conducted updates for outdated packages and enhanced performance.</li>
 			<li>Completely restructured the project using TypeScript, incorporating type safety and improved maintainability.</li>
 			<li>Introduced new features and resolved numerous bugs.</li>`,
@@ -59,9 +59,8 @@ const MY_PROJECTS: Array<Project> = [
     color: "skyblue",
     description: `<h3>Development Details:</h3>
 			<ul>
-			<li></li>
+			<li> Updated React Native version ,support sdk 34 </li>
 			<li>Conducted updates for outdated packages and enhanced performance.</li>
-			<li></li>
 			<li>Introduced new features and resolved numerous bugs.</li>`,
     shortDescription:
       "Alopeyk is a technology company that provides on-demand delivery services. It is the first and largest provider of on-demand delivery services in Iran. +1M downloads on google play",
