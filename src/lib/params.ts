@@ -24,7 +24,7 @@ export const NavBar = {
 	skills: 'Skills',
 	Education: 'Education'
 };
-const description = `Highly skilled and dedicated React Native Developer with 4 years of experience in developing high performance and
+const description = `Highly skilled and dedicated React Native Developer with 5 years of experience in developing high performance and
 user-friendly mobile applications. My strong motivation and creative mindset enable me to approach challenges with
 innovative solutions, while my passion for learning ensures I stay up-to-date with the latest industry trends and
 technologies.`;
