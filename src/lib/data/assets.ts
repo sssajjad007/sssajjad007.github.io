@@ -60,6 +60,11 @@ const Assets = {
   Taskyn6: a("taskyn6.png"),
   Taskyn7: a("taskyn7.png"),
   Taskyn8: a("taskyn8.png"),
+  Infercia1: a("infercia1.png"),
+  Infercia2: a("infercia2.png"),
+  Infercia3: a("infercia3.png"),
+  Infercia4: a("infercia4.png"),
+  Infercia5: a("infercia5.png"),
   Adviser: a("adviser.webp"),
   AndroidStudio: a("an.png"),
   CICD: a("cicd.png"),
@@ -132,6 +137,7 @@ const Assets = {
   Unocss: a("unocss.svg"),
   Ruvy: a("ruvy.svg"),
   Postcss: a("postcss.svg"),
+  Infercia: a("infercia.webp"),
 };
 
 export default Assets;

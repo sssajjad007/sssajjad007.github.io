@@ -4,13 +4,71 @@ import type { Project } from "./types";
 
 const MY_PROJECTS: Array<Project> = [
   {
+    slug: "Infercia",
+    color: "blue",
+    description: `<h3>Development Details:</h3>
+			<ul>
+			<li>Upgraded the mobile application from React Native 0.72 to 0.82, including full support for the New Architecture, TurboModules, Fabric, and 16 KB </li>
+			<li>Updated all major dependencies and packages to their latest stable versions while ensuring compatibility across Android and iOS.</li>
+			<li>Designed and implemented a custom OTA (over-the-air) update mechanism to replace CodePush, enabling secure, reliable, and faster delivery of JS bundle updates.</li>
+			<li>Implemented WebRTC and socket-based voice-to-voice communication, enabling real-time conversational practice inside the application.</li>
+			<li>Delivered full cross-platform support (Android & iOS) with high performance, reduced bundle size, and improved app stability.</li>
+			</ul>`,
+    shortDescription: `Infercia builds an AI-driven ESL learning platform that leverages advanced natural language processing, personalized content delivery, and real-time performance analysis to support English learners across all skill levels.`,
+    links: [
+      {
+        to: "https://play.google.com/store/apps/details?id=com.infercia&hl=en",
+        label: "GooglePlay",
+      },
+      {
+        to: "https://apps.apple.com/us/app/infercia/id6749689313",
+        label: "AppStore",
+      },
+    ],
+    logo: Assets.Infercia,
+    name: "Infercia - Infercia",
+    period: {
+      from: new Date(),
+    },
+    skills: getSkills("ts", "reactnative", "android", "ios"),
+    type: "Position: React Native Developer",
+    screenshots: [
+      {
+        label: "1",
+        src: Assets.Infercia1.toString(),
+      },
+      {
+        label: "2",
+        src: Assets.Infercia2.toString(),
+      },
+      {
+        label: "3",
+        src: Assets.Infercia3.toString(),
+      },
+      {
+        label: "4",
+        src: Assets.Infercia4.toString(),
+      },
+      {
+        label: "5",
+        src: Assets.Infercia5.toString(),
+      },
+      {
+        label: "6",
+        src: Assets.Courier6.toString(),
+      },
+    ],
+  },
+  {
     slug: "Courier",
     color: "blue",
     description: `<h3>Development Details:</h3>
 			<ul>
-			<li>Updated React Native version from 0.66 to 0.72, support sdk 34, implementing necessary modifications.</li>
+      <li>Implement google pay and apple pay for the app.</li>
+			<li>Updated React Native version from 0.66 to 0.76, support sdk 35, implementing necessary modifications.</li>
 			<li>Conducted updates for outdated packages and enhanced performance.</li>
-			<li>Completely restructured the project using TypeScript, incorporating type safety and improved maintainability.</li>
+			<li>Completely restructured and rewritten the project using TypeScript, incorporating type safety and improved maintainability.</li>
+      <li>Implemented custom UI kit for mobile applications.</li>
 			<li>Introduced new features and resolved numerous bugs.</li>`,
     shortDescription: `Alopeyk is a technology company that provides on-demand delivery services. It is the first and largest provider of on-demand delivery services in Iran. +200K downloads on cafebazaar.
 	  `,
